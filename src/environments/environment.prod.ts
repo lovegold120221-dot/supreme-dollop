@@ -1,14 +1,12 @@
 export const environment = {
   production: true,
   firebase: {
-    apiKey: 'AIzaSyB2j-StB_bC9xbsgifFNkM3VIyDGJmZ7rQ',
-    authDomain: 'impactful-ring-469323-e5.firebaseapp.com',
-    databaseURL: 'https://impactful-ring-469323-e5-default-rtdb.europe-west1.firebasedatabase.app',
-    projectId: 'impactful-ring-469323-e5',
-    storageBucket: 'impactful-ring-469323-e5.firebasestorage.app',
-    messagingSenderId: '316842561818',
-    appId: '1:316842561818:web:5d590a68599c1c3a2c5ca3',
-    measurementId: 'G-3SPB7L18VG',
+    apiKey: 'AQ.Ab8RN6I8Js6LYb_g-mB1YS0V9Kap3w9DIdsBxontfhqM_pfbYg',
+    authDomain: 'gen-lang-client-0460519420.firebaseapp.com',
+    projectId: 'gen-lang-client-0460519420',
+    storageBucket: 'gen-lang-client-0460519420.appspot.com',
+    messagingSenderId: '0',
+    appId: '1:0:web:anonymous',
   },
   reCAPTCHAKey: '6Ldsxb8oAAAAAGyUZbyd0QruivPSudqAWFygR-4t',
   translationApi: {
