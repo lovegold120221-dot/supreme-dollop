@@ -16,12 +16,10 @@ export interface SignedLanguageProfile {
 export function getSignedLanguageProfile(code: string | null | undefined): SignedLanguageProfile {
   if (code === 'vgt') {
     if (isSignedLanguageFallbackActive(code)) {
-      const backendCode = getSignedLanguageBackendCode(code).toUpperCase();
       return {
         code,
         status: 'experimental',
         defaultSpokenLanguage: 'nl',
-        note: `VGT currently falls back to ${backendCode} output while no dedicated Flemish backend is configured.`,
       };
     }
 
